@@ -9,5 +9,3 @@ on:
 jobs:
     call-workflow-in-another-repo:
        uses: RakeshAMD/.github/.github/workflows/deploy-workflow.yaml@main
-       secrets: 
-        GH_TOKEN: ${{ secrets.TOKEN }}
